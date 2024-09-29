@@ -1,5 +1,7 @@
 use std::env;
 
+pub mod domain;
+
 use chrono::Datelike;
 
 const SKIP_REPORT_FLAG: &str = "--skip-report-flag";
